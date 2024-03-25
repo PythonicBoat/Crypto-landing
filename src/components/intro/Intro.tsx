@@ -95,12 +95,13 @@ const Intro: React.FC = () => {
     <div  className="m-0 overflow-hidden bg-cover bg-[url('/assets/images/bgImage.svg')] md:bg-[url('/assets/images/Bgtogether.png')] bg-center bg-no-repeat flex w-screen h-screen">
         <canvas suppressHydrationWarning className=" z-0 w-full h-screen max-h-screen" id="glitchCanvas"></canvas>
       <div className='items-center w-full'>
-
+      {/* <Image src="/assets/images/defcon-logo.png" alt='' width={300} height={300} /> */}
  </div>
 
- <div className="absolute top-72 md:top-24 left-0 right-0 mx-auto w-[23rem]  md:w-96 z-10  h-32">
-        <Image src="/assets/images/DEFCON.png" alt='' layout="fill" objectFit="contain" />
-      </div>
+ 
+ <div className="absolute top-32 md:top-[-19%]  flex justify-center items-center z-0 w-full">
+  <Image src="/assets/images/defcon-logo.png" alt='' width={700} height={200} />
+</div>
     
   <div>
    

@@ -16,7 +16,7 @@ export default function App() {
   };
 
   return (
-    <Navbar maxWidth={'full'} shouldHideOnScroll={"true"} className="bg-transparent absolute blur-none justify-between" >
+    <Navbar maxWidth={'full'} shouldHideOnScroll={true} className="bg-transparent absolute blur-none justify-between" >
       
 {/* for mobile screen */}
       <NavbarContent className="sm:hidden hidden" justify="start">
