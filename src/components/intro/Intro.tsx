@@ -108,7 +108,7 @@ const Intro: React.FC = () => {
   
         
       
-    <Image className='absolute bottom-0 left-0 right-0 mx-auto h-96 max-h-96 z-20 w-[400px] md:w-[500px]'  width={500} height={500} src="/assets/images/mrrobot2.png" alt='mr robot icon ' />
+    <Image className='absolute bottom-0 left-0 right-10 mx-auto h-96 max-h-96 z-20 w-[400px] md:w-[500px]'  width={500} height={500} src="/assets/images/mrrobot2.png" alt='mr robot icon ' />
   </div>
  
     
