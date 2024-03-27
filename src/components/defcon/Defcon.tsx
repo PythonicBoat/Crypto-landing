@@ -37,12 +37,7 @@ export const Defcon: React.FC = () => {
           className="lg:w-[31rem] mb-8 lg:h-[8rem]"
         />
         <p className="text-white text-Roboto-Mono font-extralight lg:text-xl text-base  defcon lg:pl-8 sm:pl-6 pl-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-          unde. Aperiam voluptas saepe, impedit porro minus perferendis
-          obcaecati aliquam magnam aliquid neque officia recusandae deserunt
-          natus ullam nihil officiis est, dicta non corrupti incidunt deleniti
-          distinctio, corporis necessitatibus unde! Amet aperiam et ab quis est
-          fugit!
+        
         </p>
       </motion.div>
     </div>

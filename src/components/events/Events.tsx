@@ -41,11 +41,7 @@ const Events = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white  lg:ml-4 text-lg lg:text-xl pt-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quibusdam quam aperiam sapiente modi aliquam animi officia
-                doloremque sunt sit veniam laboriosam placeat maxime veritatis
-                illum deleniti, nesciunt cum, quia cupiditate eum. Maiores ullam
-                voluptate.
+              DEFCON kicks off with a carefully-crafted seminar. Here, participants will be introduced to MLSA, KIIT Chapter and receive a comprehensive overview of the event’s progressions. The seminar is decidedly focused on discussing certain important Cyber-Security concepts.
               </p>
               <img
                 src="/assets/Vector13.png"
@@ -78,10 +74,7 @@ const Events = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                nesciunt eveniet eligendi veritatis modi aliquid impedit
-                sapiente sequi perferendis! Autem sit earum totam asperiores
-                voluptatem non maiores delectus voluptatibus quos!
+              MLSA, KIIT Chapter is committed to ensuring that every event strikes a perfect balance between education and entertainment. DEFCON is not just about serious learning; it also packs in a generous dose of fun. Interactive games and quizzes are sprinkled throughout the event, providing participants the opportunity to learn in an engaging and enjoyable environment.
               </div>
               <img
                 src="/assets/Vector13.png"
@@ -133,11 +126,7 @@ const Events = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia repellat eveniet recusandae praesentium assumenda
-                reiciendis molestias dolores fugit ab molestiae ratione dolor
-                eum deleniti magni, placeat voluptatum nesciunt voluptas
-                aliquid.
+              Capture The Flag doesn’t just simulate, but recreate the environment in Mr. Robot straight to your screens! Participants should aim to conquer levels by completing the required tasks that will be carefully explained at the time of the event . This game has ben designed to captivate players, while also recognizing the top-performers.
               </p>
               <img
                 src="/assets/Vector13.png"

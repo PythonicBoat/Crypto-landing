@@ -29,7 +29,7 @@ export default function App() {
 <div>
       <NavbarContent className="sm:hidden  pr-3" justify="center">
         <NavbarBrand>
-          <Image src="/assets/icon/defcon.png"  alt="icon" height={100} width={100}/>
+          <Image src="/assets/icon/defcon.png"  alt="icon" height={150} width={150}/>
         </NavbarBrand>
       </NavbarContent>
       </div>
@@ -42,7 +42,7 @@ export default function App() {
 <NavbarContent className="hidden sm:flex gap-4 justify-between" >
 
         <NavbarBrand>
-     <Image src="/assets/icon/defcon.png"  alt="icon" height={100} width={100}/>
+     <Image src="/assets/icon/defcon.png"  alt="icon" height={175} width={175}/>
         </NavbarBrand>
 
       
