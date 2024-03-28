@@ -20,11 +20,11 @@ export default function App() {
       
 {/* for mobile screen */}
       <NavbarContent className="sm:hidden hidden" justify="start">
-      <NavbarMenuToggle
+      {/* <NavbarMenuToggle
         onClick={handleToggle}
         icon={(isOpen) => (isOpen ? <FaTimes style={{ color: 'white', fontSize: '1.5em' }} /> : <FaBars style={{ color: 'white', fontSize: '1.5em' }} />)}
         // Other props for NavbarMenuToggle
-      />
+      /> */}
       </NavbarContent>
 <div>
       <NavbarContent className="sm:hidden  pr-3" justify="center">
