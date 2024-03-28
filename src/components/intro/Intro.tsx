@@ -97,8 +97,8 @@ const Intro: React.FC = () => {
     
 
  
- <div className="absolute top-32 md:top-[-19%]  flex justify-center items-center z-0 w-full">
-  <Image src="/assets/images/defcon-logo.png" alt='' width={700} height={200} />
+ <div className="absolute top-32 md:top-[-15%]  flex justify-center items-center z-0 w-full">
+  <Image src="/assets/images/defcon-logo.png" alt='' width={500} height={200} />
 </div>
     
   <div>

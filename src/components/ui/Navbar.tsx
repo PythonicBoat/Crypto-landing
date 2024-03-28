@@ -39,7 +39,7 @@ export default function App() {
 
 
 
-<NavbarContent className="hidden sm:flex gap-4 justify-between" >
+<NavbarContent className="hidden sm:flex  " >
 
         <NavbarBrand>
      <Image src="/assets/icon/defcon.png"  alt="icon" height={125} width={125}/>
