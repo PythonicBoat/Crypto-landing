@@ -16,7 +16,7 @@ export default function App() {
   };
 
   return (
-    <Navbar maxWidth={'full'} shouldHideOnScroll={true} className="bg-transparent absolute blur-none justify-between" >
+    <Navbar maxWidth={'full'} shouldHideOnScroll={true} className="bg-transparent z-[100] absolute blur-none justify-between" >
       
 {/* for mobile screen */}
       <NavbarContent className="sm:hidden hidden" justify="start">
@@ -29,7 +29,7 @@ export default function App() {
 <div>
       <NavbarContent className="sm:hidden  pr-3" justify="center">
         <NavbarBrand>
-          <Image src="/assets/icon/defcon.png"  alt="icon" height={100} width={100}/>
+          <Image src="/assets/icon/defcon.png"  alt="icon" height={125} width={125}/>
         </NavbarBrand>
       </NavbarContent>
       </div>
@@ -42,7 +42,7 @@ export default function App() {
 <NavbarContent className="hidden sm:flex gap-4 justify-between" >
 
         <NavbarBrand>
-     <Image src="/assets/icon/defcon.png"  alt="icon" height={100} width={100}/>
+     <Image src="/assets/icon/defcon.png"  alt="icon" height={125} width={125}/>
         </NavbarBrand>
 
       

@@ -94,9 +94,7 @@ const Intro: React.FC = () => {
   return (
     <div  className="m-0 overflow-hidden bg-cover bg-[url('/assets/images/bgImage.svg')] md:bg-[url('/assets/images/Bgtogether.png')] bg-center bg-no-repeat flex w-screen h-screen">
         <canvas suppressHydrationWarning className=" z-0 w-full h-screen max-h-screen" id="glitchCanvas"></canvas>
-      <div className='items-center w-full'>
-      {/* <Image src="/assets/images/defcon-logo.png" alt='' width={300} height={300} /> */}
- </div>
+    
 
  
  <div className="absolute top-32 md:top-[-19%]  flex justify-center items-center z-0 w-full">
@@ -108,7 +106,7 @@ const Intro: React.FC = () => {
   
         
       
-    <Image className='absolute bottom-0 left-0 right-0 mx-auto h-96 max-h-96 z-20 w-[400px] md:w-[500px]'  width={500} height={500} src="/assets/images/mrrobot2.png" alt='mr robot icon ' />
+    <Image className='absolute bottom-0 left-0 right-10 mx-auto h-96 max-h-96 z-20 w-[400px] md:w-[500px]'  width={500} height={500} src="/assets/images/mrrobot2.png" alt='mr robot icon ' />
   </div>
  
     

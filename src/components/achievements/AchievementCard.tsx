@@ -40,11 +40,7 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quibusdam quam aperiam sapiente modi aliquam animi officia
-                doloremque sunt sit veniam laboriosam placeat maxime veritatis
-                illum deleniti, nesciunt cum, quia cupiditate eum. Maiores ullam
-                voluptate.
+              MLSA believes it is important to acknowledge the hard work that each student has demonstrated throughout the event. All participants will be given a certificate of completion meant to be a a token of appreciation for their enthusiasm and eagerness to learn. This certificate serves as a recognition of their efforts and commitment to their personal and professional development.
               </p>
               <img
                 src="/assets/Vector13.png"
@@ -77,10 +73,7 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                nesciunt eveniet eligendi veritatis modi aliquid impedit
-                sapiente sequi perferendis! Autem sit earum totam asperiores
-                voluptatem non maiores delectus voluptatibus quos!
+
               </div>
               <img
                 src="/assets/Vector13.png"
@@ -132,7 +125,7 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-              MLSA believes it is important to acknowledge the hard work that each student has demonstrated throughout the event. All participants will be given a certificate of completion meant to be a a token of appreciation for their enthusiasm and eagerness to learn. This certificate serves as a recognition of their efforts and commitment to their personal and professional development.
+
               </p>
               <img
                 src="/assets/Vector13.png"

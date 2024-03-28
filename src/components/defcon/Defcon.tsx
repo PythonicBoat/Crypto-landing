@@ -37,9 +37,10 @@ export const Defcon: React.FC = () => {
           className="lg:w-[31rem] mb-8 lg:h-[8rem]"
         />
         <p className="text-white text-Roboto-Mono font-extralight lg:text-xl text-base  defcon lg:pl-8 sm:pl-6 pl-4">
-       
-DEFCON is a tremendous learning opportunity for all CyberSecurity enthusiasts! The one-day event commences at 10:30 with a theoretical blueprint being provided to the participants, they will be explained the flow of the event and given brief introductions on the agenda. The evening segment starting at 3:00 will feature hands-on learning activities like Capture The Flag (CTF) where participants can engage and get the opportunity to become the top-performing individuals and win gifts/prizes! Bring your best Elliot impressions with you!
 
+DEFCON is a tremendous learning opportunity for all CyberSecurity enthusiasts! The one-day event commences at 10:30 with a theoretical blueprint being provided to the participants, they will be explained the flow of the event and given brief introductions on the agenda. The evening segment starting at 3:00 will feature hands-on learning activities like Capture The Flag (CTF) where participants can engage and get the opportunity to become the top-performing individuals and win gifts/prizes! Bring your best Elliot impressions with you!
+
+        
         </p>
       </motion.div>
     </div>
