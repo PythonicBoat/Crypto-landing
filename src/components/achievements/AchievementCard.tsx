@@ -132,11 +132,7 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia repellat eveniet recusandae praesentium assumenda
-                reiciendis molestias dolores fugit ab molestiae ratione dolor
-                eum deleniti magni, placeat voluptatum nesciunt voluptas
-                aliquid.
+              MLSA believes it is important to acknowledge the hard work that each student has demonstrated throughout the event. All participants will be given a certificate of completion meant to be a a token of appreciation for their enthusiasm and eagerness to learn. This certificate serves as a recognition of their efforts and commitment to their personal and professional development.
               </p>
               <img
                 src="/assets/Vector13.png"
