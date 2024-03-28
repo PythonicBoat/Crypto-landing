@@ -19,13 +19,7 @@ export default function App() {
     <Navbar maxWidth={'full'} shouldHideOnScroll={true} className="bg-transparent z-[100] absolute blur-none justify-between" >
       
 {/* for mobile screen */}
-      <NavbarContent className="sm:hidden hidden" justify="start">
-      {/* <NavbarMenuToggle
-        onClick={handleToggle}
-        icon={(isOpen) => (isOpen ? <FaTimes style={{ color: 'white', fontSize: '1.5em' }} /> : <FaBars style={{ color: 'white', fontSize: '1.5em' }} />)}
-        // Other props for NavbarMenuToggle
-      /> */}
-      </NavbarContent>
+     
 <div>
       <NavbarContent className="sm:hidden  pr-3" justify="center">
         <NavbarBrand>
@@ -103,7 +97,7 @@ export default function App() {
       
 
 {/* side menu  */}
-      <NavbarMenu className="bg-transparent">
+      {/* <NavbarMenu className="bg-transparent">
         
           <NavbarMenuItem >
             <Link
@@ -143,7 +137,7 @@ export default function App() {
             </Link>
           </NavbarMenuItem>
       
-      </NavbarMenu>
+      </NavbarMenu> */}
     </Navbar>
   );
 }
