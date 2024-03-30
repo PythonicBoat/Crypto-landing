@@ -26,6 +26,11 @@ const Nav = () => {
           </Link>
           </div>
           <div>
+        <Link  className="text-white z-40" href="/sponsors">
+          Our Sponsors
+          </Link>
+          </div>
+          <div>
         <Link  className="text-white z-40" href="#about">
           About
           </Link>
