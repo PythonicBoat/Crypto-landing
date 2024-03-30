@@ -25,13 +25,21 @@ const AchievementCard = () => {
               // x:200,
             }}
             whileInView={{
-              opacity: [0, 0.4, 0,.6, 1],
+              opacity: [0, 0.4, 0, 0.6, 1],
             }}
             viewport={{ once: true }}
-            transition={{ type: "tween", duration: 0.5, delay:.3,repeatType: "loop", repeat:1}}
+            transition={{
+              type: "tween",
+              duration: 0.5,
+              delay: 0.3,
+              repeatType: "loop",
+              repeat: 1,
+            }}
           >
             <div className="lg:text-[40px] text-3xl leading-10 tracking-tighter font-bold uppercase text-color-1 inline-block w-full text-center">
-              <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold ">LEARN CYBER SECURITY</div>
+              <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold ">
+                LEARN CYBER SECURITY
+              </div>
             </div>
             <div className="flex justify-between items-center">
               <img
@@ -40,7 +48,13 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-              MLSA believes it is important to acknowledge the hard work that each student has demonstrated throughout the event. All participants will be given a certificate of completion meant to be a a token of appreciation for their enthusiasm and eagerness to learn. This certificate serves as a recognition of their efforts and commitment to their personal and professional development.
+                MLSA believes it is important to acknowledge the hard work that
+                each student has demonstrated throughout the event. All
+                participants will be given a certificate of completion meant to
+                be a a token of appreciation for their enthusiasm and eagerness
+                to learn. This certificate serves as a recognition of their
+                efforts and commitment to their personal and professional
+                development.
               </p>
               <img
                 src="/assets/Vector13.png"
@@ -61,10 +75,18 @@ const AchievementCard = () => {
               opacity: [0, 0.4, 0, 0.6, 1],
             }}
             viewport={{ once: true }}
-            transition={{ type: "tween", duration: 0.5, delay:0.3,repeatType: "loop", repeat:1}}
+            transition={{
+              type: "tween",
+              duration: 0.5,
+              delay: 0.3,
+              repeatType: "loop",
+              repeat: 1,
+            }}
           >
             <div className="text-3xl lg:text-[40px]  leading-7 tracking-tighter font-bold uppercase text-color-1 inline-block w-full text-center">
-              <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold">EXCITING GOODIES</div>{" "}
+              <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold">
+                EXCITING GOODIES
+              </div>{" "}
             </div>
             <div className="flex justify-between items-center">
               <img
@@ -72,9 +94,7 @@ const AchievementCard = () => {
                 alt="v"
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
-              <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 ">
-
-              </div>
+              <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 "></div>
               <img
                 src="/assets/Vector13.png"
                 alt="v"
@@ -113,10 +133,18 @@ const AchievementCard = () => {
               opacity: [0, 0.4, 0, 0.6, 1],
             }}
             viewport={{ once: true }}
-            transition={{ type: "tween", duration: 0.5, delay:0.3, repeatType: "loop", repeat:1}}
+            transition={{
+              type: "tween",
+              duration: 0.5,
+              delay: 0.3,
+              repeatType: "loop",
+              repeat: 1,
+            }}
           >
             <div className="text-3xl lg:text-[40px] leading-7 tracking-tighter font-bold uppercase text-color-1 inline-block w-full text-center">
-              <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold">CERTIFICATE</div>
+              <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold">
+                CERTIFICATE
+              </div>
             </div>
             <div className="flex justify-between items-center">
               <img
@@ -125,7 +153,13 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-
+                MLSA believes it is important to acknowledge the hard work that
+                each student has demonstrated throughout the event. All
+                participants will be given a certificate of completion meant to
+                be a a token of appreciation for their enthusiasm and eagerness
+                to learn. This certificate serves as a recognition of their
+                efforts and commitment to their personal and
+                professional development.
               </p>
               <img
                 src="/assets/Vector13.png"
