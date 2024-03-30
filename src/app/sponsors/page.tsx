@@ -25,7 +25,7 @@ const CARD_DETAILS = [
     “At Innovatronix, we don't just redefine innovation; we architect the future of technology-driven solutions, setting new benchmarks for excellence. 💯Join us on this transformative journey and witness the power of progress.” ✨`,
   },
   {
-    imgSrc: "/assets/sponsors/bitget.PNG",
+    imgSrc: "/assets/sponsors/bitget.png",
     title: "Bitget",
     cardDesc: `"Dare to defy the odds with Bitget!"
 
