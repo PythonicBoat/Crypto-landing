@@ -84,11 +84,11 @@ export default function App() {
         <Button
   as={Link}
   className="bg-red-600 text-white font-bold py-2 px-2 rounded"
-  href="https://register.d3fc0n.tech/"
+  href=""
 
   
 >
-  REGISTER NOW
+  REGISTERATIONS CLOSED! 
 </Button>
 
         </NavbarItem>

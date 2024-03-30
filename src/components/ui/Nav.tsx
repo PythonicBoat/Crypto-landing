@@ -11,9 +11,9 @@ const Nav = () => {
         <Button
           as={Link}
           className="bg-red-600 text-white font-bold py-2 px-2 rounded"
-          href="https://register.d3fc0n.tech/"
+          href=""
         >
-          REGISTER NOW
+          REGISTERATIONS CLOSED!
         </Button>
       </div>
       {/* For larger screens */}
@@ -49,9 +49,9 @@ const Nav = () => {
         <Button
           as={Link}
           className="bg-red-600 z-40 text-white font-bold py-2 px-2 rounded"
-          href="https://register.d3fc0n.tech/"
+          href=""
         >
-          REGISTER NOW
+          REGISTERATIONS CLOSED!
         </Button>
       </div>
     </div>
