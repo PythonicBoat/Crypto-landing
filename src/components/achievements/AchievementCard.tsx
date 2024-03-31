@@ -48,13 +48,11 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-                MLSA believes it is important to acknowledge the hard work that
-                each student has demonstrated throughout the event. All
-                participants will be given a certificate of completion meant to
-                be a a token of appreciation for their enthusiasm and eagerness
-                to learn. This certificate serves as a recognition of their
-                efforts and commitment to their personal and professional
-                development.
+                Being a part of DEFCON will help you in your journey of
+                cybersecurity. Acknowledging both the beginners and the already
+                skillful masters, we at MLSA will polish your artistry in this
+                field with the assist of our experienced team members and will
+                surely leave you hungry for more.
               </p>
               <img
                 src="/assets/Vector13.png"
@@ -94,7 +92,12 @@ const AchievementCard = () => {
                 alt="v"
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
-              <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 "></div>
+              <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 ">
+                {" "}
+                An event hosted by us does not end without a surprise. Each and
+                every participant has an opportunity to win a free goodie which
+                you can definitely flex among your friends with a proud face.
+              </div>
               <img
                 src="/assets/Vector13.png"
                 alt="v"
