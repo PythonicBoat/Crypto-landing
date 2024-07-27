@@ -38,7 +38,7 @@ const AchievementCard = () => {
           >
             <div className="lg:text-[40px] text-3xl leading-10 tracking-tighter font-bold uppercase text-color-1 inline-block w-full text-center">
               <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold ">
-                LEARN CYBER SECURITY
+                ENHANCE TRADING SKILLS
               </div>
             </div>
             <div className="flex justify-between items-center">
@@ -48,11 +48,8 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-                Being a part of DEFCON will help you in your journey of
-                cybersecurity. Acknowledging both the beginners and the already
-                skillful masters, we at MLSA will polish your artistry in this
-                field with the assist of our experienced team members and will
-                surely leave you hungry for more.
+                Brushed up trading skills for a rookie or honing strategies
+                through practice for the experienced ones
               </p>
               <img
                 src="/assets/Vector13.png"
@@ -83,7 +80,7 @@ const AchievementCard = () => {
           >
             <div className="text-3xl lg:text-[40px]  leading-7 tracking-tighter font-bold uppercase text-color-1 inline-block w-full text-center">
               <div className="drop-shadow-[3px_3px_0px_red] outline-color-1 text-white font-extrabold">
-                EXCITING GOODIES
+                EXCITING Prizes
               </div>{" "}
             </div>
             <div className="flex justify-between items-center">
@@ -94,9 +91,8 @@ const AchievementCard = () => {
               />
               <div className="text-white lg:ml-4 text-lg lg:text-xl pt-5 ">
                 {" "}
-                An event hosted by us does not end without a surprise. Each and
-                every participant has an opportunity to win a free goodie which
-                you can definitely flex among your friends with a proud face.
+                Win a share of the 2.5 lakh prize pool! Top 40 contestants take
+                home the cash — are you ready to compete?
               </div>
               <img
                 src="/assets/Vector13.png"
@@ -156,13 +152,8 @@ const AchievementCard = () => {
                 className="lg:h-[15rem] lg:inline-block hidden"
               />
               <p className="text-white lg:ml-4 text-lg lg:text-xl pt-5">
-                MLSA believes it is important to acknowledge the hard work that
-                each student has demonstrated throughout the event. All
-                participants will be given a certificate of completion meant to
-                be a a token of appreciation for their enthusiasm and eagerness
-                to learn. This certificate serves as a recognition of their
-                efforts and commitment to their personal and
-                professional development.
+                A participation certificate to boast your trading skills among
+                your friends.
               </p>
               <img
                 src="/assets/Vector13.png"

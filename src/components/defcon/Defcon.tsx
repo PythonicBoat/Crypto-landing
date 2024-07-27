@@ -1,13 +1,12 @@
 "use client";
-import { motion } from "framer-motion"; 
-
+import { motion } from "framer-motion";
 
 export const Defcon: React.FC = () => {
-  
   return (
-    <div  id="about" className=" flex  h-[70vh] lg:h-screen xl:max-w-7xl 2xl:ml-40 overflow-hidden lg:gap-8 sm:gap-6 gap-4 px-6 lg:px-8 justify-between items-center">
-      
-      
+    <div
+      id="about"
+      className=" flex  h-[70vh] lg:h-screen xl:max-w-7xl 2xl:ml-40 overflow-hidden lg:gap-8 sm:gap-6 gap-4 px-6 lg:px-8 justify-between items-center"
+    >
       <img
         src="/assets/Group.png"
         alt=""
@@ -37,10 +36,13 @@ export const Defcon: React.FC = () => {
           className="lg:w-[31rem] mb-8 lg:h-[8rem]"
         />
         <p className="text-white text-Roboto-Mono font-extralight lg:text-xl text-base  defcon lg:pl-8 sm:pl-6 pl-4">
-
-DEFCON is a tremendous learning opportunity for all CyberSecurity enthusiasts! The one-day event commences at 10:30 with a theoretical blueprint being provided to the participants, they will be explained the flow of the event and given brief introductions on the agenda. The evening segment starting at 3:00 will feature hands-on learning activities like Capture The Flag (CTF) where participants can engage and get the opportunity to become the top-performing individuals and win gifts/prizes! Bring your best Elliot impressions with you!
-
-        
+          Cryptoblitz is an exhilarating one-week event designed for
+          cryptocurrency enthusiasts and traders. Attendees immerse themselves
+          in a dynamic trading environment, where they can buy, sell, and trade
+          cryptocurrencies. Whether you&apos;re a seasoned trader or new to the
+          crypto space, Cryptoblitz offers an engaging platform to enhance your
+          trading skills, compete for prizes, and connect with the crypto
+          community.
         </p>
       </motion.div>
     </div>

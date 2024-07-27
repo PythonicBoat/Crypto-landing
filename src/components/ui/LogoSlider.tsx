@@ -8,31 +8,10 @@ const LogoSlider = () => {
           <h1 className="text-center text-white text-2xl defcon w-full lg:text-4xl">
             Our Sponsors
           </h1>
-          <div className="slider mt-8 justify-center flex gap-20 lg:gap-40 ">
+          <div className="mt-8 justify-center flex gap-20 lg:gap-40 ">
             <div className="logos flex gap-5 lg:gap-32 ">
               <Image
-                src={"/assets/sponsors/biggies2.png"}
-                width={100}
-                height={100}
-                alt="biggies"
-                className="fab"
-              />
-              <Image
                 src={"/assets/sponsors/bitget.png"}
-                width={100}
-                height={100}
-                alt="biggies"
-                className="fab"
-              />
-              <Image
-                src={"/assets/sponsors/bitgit.png"}
-                width={100}
-                height={100}
-                alt="biggies"
-                className="fab"
-              />
-              <Image
-                src={"/assets/sponsors/hill view.png"}
                 width={100}
                 height={100}
                 alt="biggies"
