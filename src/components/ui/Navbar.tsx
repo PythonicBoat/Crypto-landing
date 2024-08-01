@@ -91,9 +91,9 @@ export default function App() {
           <Button
             as={Link}
             className="bg-red-600  font-bold py-2 px-2 rounded"
-            href=""
+            href="https://docs.google.com/forms/d/e/1FAIpQLSemfe20wN5I7B3aZbUW5XzM3Gcm2tPPTBiEqT9G21NR92ak6A/viewform"
           >
-            REGISTERATIONS CLOSED!
+            REGISTER NOW
           </Button>
         </NavbarItem>
       </NavbarContent>

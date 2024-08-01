@@ -16,9 +16,9 @@ const Nav = () => {
         <Button
           as={Link}
           className="bg-red-600 text-white font-bold py-2 px-2 rounded"
-          href=""
+          href="https://docs.google.com/forms/d/e/1FAIpQLSemfe20wN5I7B3aZbUW5XzM3Gcm2tPPTBiEqT9G21NR92ak6A/viewform"
         >
-          REGISTERATIONS CLOSED!
+          REGISTER NOW
         </Button>
       </div>
       {/* For larger screens */}
@@ -47,7 +47,8 @@ const Nav = () => {
         <Button
           as={Link}
           className="bg-red-500 z-40 text-white font-dm font-semibold py-1 px-4 rounded text-xl"
-          href=""
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSemfe20wN5I7B3aZbUW5XzM3Gcm2tPPTBiEqT9G21NR92ak6A/viewform"
         >
           Register Now
         </Button>
