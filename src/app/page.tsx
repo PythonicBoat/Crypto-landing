@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div className="">
       <Intro />
-      <LogoSlider />
-      <Defcon />
-      <Events />
-      <Achievements />
+      {/* <LogoSlider /> */}
+      {/* <Defcon /> */}
+      {/* <Events /> */}
+      {/* <Achievements /> */}
     </div>
   );
 }
