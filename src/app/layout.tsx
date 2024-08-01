@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Comic_Neue, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/ui/Nav";
+import Footer from "@/components/ui/Footer";
 
 const comic_neue = Comic_Neue({
   weight: ["300", "400", "700"],
@@ -35,6 +36,7 @@ export default function RootLayout({
           <div className="overflow-hidden">
             <Nav />
             {children}
+            <Footer />
           </div>
         </Providers>
       </body>
