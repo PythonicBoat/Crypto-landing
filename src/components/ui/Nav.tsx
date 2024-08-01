@@ -15,10 +15,10 @@ const Nav = () => {
         />
         <Button
           as={Link}
-          className="bg-red-600 text-white font-bold py-2 px-2 rounded"
+          className="bg-red-500 z-40 text-white font-dm font-semibold py-1 px-4 rounded text-xl"
           href=""
         >
-          REGISTERATIONS CLOSED!
+          Register Now
         </Button>
       </div>
       {/* For larger screens */}
