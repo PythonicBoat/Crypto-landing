@@ -30,7 +30,7 @@ const Nav = () => {
           <Link href="#achievements">Benefits</Link>
         </div>
         <div>
-          <Link href="#events">FAQs</Link>
+          <Link href="https://youtu.be/VhbubyPwTpE?si=DOFP3UmVabUm1ksd">FAQs</Link>
         </div>
       </div>
       <Link
