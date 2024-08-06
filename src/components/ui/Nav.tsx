@@ -21,13 +21,13 @@ const Nav = () => {
       />
       <div className="hidden md:flex gap-2 md:gap-10 items-baseline text-sm z-10 font-[600] text-xl italic">
         <div>
-          <Link href="/">Home</Link>
+          <Link href="#home">Home</Link>
         </div>
         <div>
           <Link href="#about">About</Link>
         </div>
         <div>
-          <Link href="#achievements">Benefits</Link>
+          <Link href="#benefits">Benefits</Link>
         </div>
         <div>
           <Link href="https://youtu.be/VhbubyPwTpE?si=DOFP3UmVabUm1ksd">FAQs</Link>
