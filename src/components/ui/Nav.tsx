@@ -32,6 +32,10 @@ const Nav = () => {
         <div>
           <Link href="https://youtu.be/VhbubyPwTpE?si=DOFP3UmVabUm1ksd">FAQs</Link>
         </div>
+
+        <div>
+          <Link href="/leaderboard">Leaderboard</Link>
+        </div>
       </div>
       <Link
         target="_blank"
