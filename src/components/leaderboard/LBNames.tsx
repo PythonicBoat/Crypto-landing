@@ -1,13 +1,18 @@
 import React from "react";
 
+const THIRTY_MINUTES = 1800;
 const getData = async () => {
-  const data = await fetch(
-    "https://script.google.com/macros/s/AKfycbxabUG7IHvUbHozpNyceTZGArdfFMQHl6qM1gdrCw8HiHuof3zEijO2CVSBOpgPTFP68g/exec",
-    {
-      next: { revalidate: 3600 },
-    }
-  );
-  return await data.json();
+  try {
+    const data = await fetch(
+      "https://script.google.com/macros/s/AKfycbxabUG7IHvUbHozpNyceTZGArdfFMQHl6qM1gdrCw8HiHuof3zEijO2CVSBOpgPTFP68g/exec",
+      {
+        next: { revalidate: THIRTY_MINUTES },
+      }
+    );
+    return await data.json();
+  } catch (_) {
+    return [];
+  }
 };
 
 const LBNames = async () => {
