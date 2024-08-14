@@ -8,8 +8,8 @@ import Prizes from "@/components/prizes/Prizes";
 export default function Home() {
   return (
     <div className="flex flex-col gap-10 md:gap-32">
-      <Prizes />
       <Intro />
+      <Prizes />
       <Information />
       <Benefits />
       <Faq />
