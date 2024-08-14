@@ -18,7 +18,7 @@ const getData = async () => {
 const LBNames = async () => {
   const rankings = await getData();
   return (
-    <div className="max-sm:w-[70%] max-sm:h-[50%] no-scrollbar h-full overflow-auto flex flex-col rounded-lg p-2">
+    <div className="max-sm:w-[70%]  max-sm:h-[45%] no-scrollbar h-full overflow-auto flex flex-col rounded-lg p-2">
       {rankings.map((user: any, idx: number) => (
         <div
           key={user.rank}
