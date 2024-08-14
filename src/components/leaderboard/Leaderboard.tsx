@@ -4,8 +4,8 @@ import LBNames from "./LBNames";
 
 export default function Leaderboard() {
   return (
-    <div className="w-full h-screen py-6 px-10 max-sm:px-5 bg-[#ffd68b] flex justify-center items-center relative">
-      <div className="relative flex flex-col items-center justify-center ">
+    <div className="w-full h-screen py-6 px-10 max-sm:px-5 bg-[#ffd68b] flex justify-center items-center lg:my-[10%]">
+      <div className="relative flex flex-col items-center justify-center my-4">
 
         <Image src="/assets/leaderboard/left coin.png" height={100} width={100} alt="left coin" className="absolute top-0 max-sm:left-[10%] left-[20%] w-12 md:w-16"></Image>
 
@@ -22,18 +22,18 @@ export default function Leaderboard() {
         <Image src="/assets/leaderboard/left coin.png" height={100} width={100} alt="left coin" className="absolute lg:hidden -bottom-8 left-1/2 -translate-x-[40%] w-9"></Image>
 
         {/* hidden on mobile  */}
-        <Image src="/assets/leaderboard/right coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/2 right-[10%] w-12 md:w-20"></Image>
-        <Image src="/assets/leaderboard/left coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/2 right-[15%] w-12 md:w-20"></Image>
+        <Image src="/assets/leaderboard/right coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/2 right-[0%] w-12 md:w-20"></Image>
+        <Image src="/assets/leaderboard/left coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/2 -right-[5%] w-12 md:w-20"></Image>
 
-        <Image src="/assets/leaderboard/right coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/3 left-[10%] w-12 md:w-20"></Image>
-        <Image src="/assets/leaderboard/left coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/3 left-[15%] w-12 md:w-20"></Image>
+        <Image src="/assets/leaderboard/right coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/3 left-[0%] w-12 md:w-20"></Image>
+        <Image src="/assets/leaderboard/left coin.png" height={100} width={100} alt="left coin" className="absolute max-sm:hidden top-1/3 -left-[5%] w-12 md:w-20"></Image>
 
       <Image
         src="/assets/leaderboard/Vector.png"
         height={1550}
         width={1650}
         alt="imgBg"
-        className=" lg:max-w-[60%] sm:w-[70%] max-sm:w-[100%] mt-7"
+        className=" lg:max-w-[95%] sm:w-[90%] max-sm:w-[100%] mt-7"
         />
       <div className="absolute -top-5 max-sm:-top-3 flex flex-col gap-4 items-center h-[45vh]  sm:h-[70%] z-10 max-sm:w-[80%] pb-3">
         <div className="relative flex justify-center">
