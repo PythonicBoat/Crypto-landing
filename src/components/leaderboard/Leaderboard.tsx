@@ -138,7 +138,7 @@ export default function Leaderboard() {
             width={300}
             alt="lbHead"
           ></Image>
-          <div className="absolute font-bold bottom-8 translate-y-1 text-2xl">
+          <div className="absolute font-bold bottom-5 2xl:bottom-8 translate-y-1 text-2xl">
             LEADERBOARD
           </div>
           <Image
