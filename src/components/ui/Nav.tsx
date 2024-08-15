@@ -1,6 +1,5 @@
-import React from "react";
 import Image from "next/image";
-import { Link } from "@nextui-org/react";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -30,7 +29,9 @@ const Nav = () => {
           <Link href="#benefits">Benefits</Link>
         </div>
         <div>
-          <Link href="https://youtu.be/VhbubyPwTpE?si=DOFP3UmVabUm1ksd">FAQs</Link>
+          <Link href="https://youtu.be/VhbubyPwTpE?si=DOFP3UmVabUm1ksd">
+            FAQs
+          </Link>
         </div>
 
         <div>
