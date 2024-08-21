@@ -76,13 +76,13 @@ export default function Leaderboard() {
           alt="left coin"
           className="absolute max-sm:hidden top-1/2 right-[0%] w-12 md:w-20"
         ></Image>
-        <Image
-          src="/assets/leaderboard/left coin.png"
-          height={100}
-          width={100}
-          alt="left coin"
-          className="absolute max-sm:hidden top-1/2 -right-[5%] w-12 md:w-20"
-        ></Image>
+        {/* <Image */}
+        {/*   src="/assets/leaderboard/left coin.png" */}
+        {/*   height={100} */}
+        {/*   width={100} */}
+        {/*   alt="left coin" */}
+        {/*   className="absolute max-sm:hidden top-1/2 -right-[5%] w-12 md:w-20" */}
+        {/* ></Image> */}
 
         <Image
           src="/assets/leaderboard/right coin.png"
